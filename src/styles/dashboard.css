@@ -1,0 +1,107 @@
+.dash_main{
+    max-width: 97%;
+    margin: 0 auto;
+    padding: 45px;
+    color: white;
+}
+
+
+.dash_hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+
+.dash_desc{
+ color: #b7b7bd;
+ margin-bottom: 20px;
+}
+
+.hero_head{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   font-size: 22px;
+
+
+}
+
+.hero_head h2{
+ font-weight: 600;
+}
+
+
+
+
+
+.dash_cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.dash_card{
+    min-height: 215px;
+    border: 1px solid #4d4d4e;
+    background-color:#151515 ;
+    border-radius: 5px;
+    display: flex;
+    min-width: 590px;
+    flex-direction: column;
+
+}
+
+.dash_card_2{
+    min-height: 215px;
+    border: 1px solid #4d4d4e;
+    background-color:#151515 ;
+    border-radius: 5px;
+    display: flex;
+    min-width: 590px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dash_body{
+    min-width: 350px;
+}
+.dash_card_head{ 
+    padding: 15px;
+    font-size: 17px;
+    border-bottom: 2px solid #4d4d4e;
+    border-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.dash_card_data{
+    padding:8px;
+}
+
+.dash_data{
+    padding: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash_data span{
+     color: hsla(0,0%,100%,.7);
+  
+}
+
+.dash_data p{
+    text-decoration:underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness:1px;
+    text-decoration-color: #b7b7bd;
+    text-underline-offset: 2px;
+}
